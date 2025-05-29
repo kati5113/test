@@ -1,0 +1,28 @@
+body {
+    background-color: #6635e066;
+}
+header {
+   background-color: #c9b2f9;
+   font-size: 50px;
+   color: #3f3dd2;
+   display: flex;
+   justify-content: center;
+   text-align:center;
+}
+.domains {
+    color: #6635e066;
+    text-align: center;
+    background-color: #c9b2f9;
+    display: flex;
+    justify-content: center;
+}
+.domains > div {
+    transition: 1.0s ease;
+    border-style: dotted;
+    border-width: 4px;
+    border-color:#6635e066;
+
+}
+.domains > div :hover {
+    height: 100px;
+}
